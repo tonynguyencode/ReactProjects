@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid red;
+}
+
+.Topbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border-bottom: 1px solid;
+}
+
+.App-header h1 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.icon {
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+.container p {
+  margin: 10px;
+  font-size: 25px;
+}
+
+/* CSS */
+.button-67 {
+  align-items:flex-start;
+  background-color:aliceblue;
+  border: 0.5px;
+  border-radius: 1px;
+  box-shadow: -10px -10px 30px 0 #ffffff,10px 10px 30px 0 #1d0dca17;
+  box-sizing:border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding-right: 0px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.button-67:hover {
+  background:#61dafb;
+  box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+  .button-67 {
+    padding: 12px;
+  }
+}
+        
+
+/* Parent background */
+#F5F5FA
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
